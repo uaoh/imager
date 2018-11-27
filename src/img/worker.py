@@ -471,6 +471,7 @@ class ImageWorker(object):
                 self.result = False
             else:
 
+                overlayimg = None
                 try:
                     overlay_suffix = 'overlay-%s-port-%s' % \
                                      (self.image_id, commands.port)
